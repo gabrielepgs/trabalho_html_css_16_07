@@ -1,0 +1,210 @@
+/* _______________________________________________________________________________________________________ */
+body{
+    
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Merriweather', serif;
+}
+
+#home{
+  margin: 0px;
+  padding: 0px;
+  height: auto;
+}
+
+h1{
+
+}
+
+h2{
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h3{
+  text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+/* _______________________________________________________________________________________________________ */
+
+nav{
+    position: fixed;
+    top: 0px;
+    z-index: 10000;
+    left: 0px;
+    margin: 0 auto;
+    width: 100%;
+    background-color: rgba(0,0,0, 0.8);
+  }
+  
+  nav ul{
+    list-style-type: none;
+    text-align: center;
+  }
+  
+  nav ul li{
+    display: inline-block;
+    text-align: center;
+    padding: 12px;
+    height: 2%;
+  }
+  
+  nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+  }
+  
+  nav ul li a:hover, nav ul li a:active{
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 8px;
+  }
+/* _______________________________________________________________________________________________________ */
+
+
+#fizmerda{
+  display: flex;
+  align-items: justify;
+  margin: 30px;
+
+}
+.perfil{
+  width: 150px;
+  height: 150px;
+  align-items: center;
+  border-radius: 70%;
+  margin-top: 20%;
+
+}
+
+#fizmerda p{
+  font-size: 11pt;
+  text-align: justify;
+  padding: 15px;
+
+}
+.linha-vertical {
+  border-left: 2px solid;/* Adiciona borda esquerda na div como ser fosse uma linha.*/
+  box-sizing: border-box;
+  margin-right: 10px;
+ }
+/* _______________________________________________________________________________________________________ */
+form {
+  background: #fff;
+  padding: 4em 4em 2em;
+  width: 80%;
+  height: auto;
+  margin:auto;
+  border-radius: 5px;
+}
+
+.contato{
+  width: 100%; 
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: brown;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: black;
+}
+/* _______________________________________________________________________________________________________ */
+.rodape {
+text-align: center;
+width: 100%;
+margin:0 auto;
+}
+
+.midia {
+background: #323233;
+padding: 21px 0px;
+}
+
+.midia .texto_rodape {
+font-size: 18px;
+color:#fff;
+font-family: 'Merriweather', serif;
+display:block;
+margin-top: 15px;
+}
+.midia ul {
+padding:0px;
+margin: 0px;
+margin-top:10px;
+}
+.midia li {
+display: inline;
+margin-right: 5px;
+}
+
+/* _______________________________________________________________________________________________________ */
+.imagens{
+  width: 400px;
+  height: 300px;
+  margin: 15px;
+
+}
+
+#livros{
+  display: flex;
+  align-items: justify;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+
+}
+#livros p{
+  margin-top: 7%;
+  text-align: center;
+}
+
+#series{
+  display: flex;
+  align-items: justify;
+  border-bottom: 1px solid black;
+
+}
+#series p{
+  margin-top: 7%;
+  text-align: center;
+}
+
+#animes{
+  display: flex;
+  align-items: justify;
+  border-bottom: 1px solid black;
+
+}
+#animes p{
+  margin-top: 7%;
+  text-align: center;
+}
+
+#musicas{
+  display: flex;
+  align-items: justify;
+  border-bottom: 1px solid black;
+
+}
+#musicas p{
+  margin-top: 7%;
+  text-align: center;
+}
+
+
+
