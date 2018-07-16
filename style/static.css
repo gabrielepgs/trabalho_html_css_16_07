@@ -13,9 +13,6 @@ body{
   height: auto;
 }
 
-h1{
-
-}
 
 h2{
     text-align: center;
@@ -25,6 +22,7 @@ h2{
 h3{
   text-align: center;
     font-family: 'Merriweather', serif;
+    color: white;
 }
 
 /* _______________________________________________________________________________________________________ */
@@ -132,7 +130,7 @@ margin:0 auto;
 }
 
 .midia {
-background: #323233;
+background: #111111;
 padding: 21px 0px;
 }
 
@@ -164,12 +162,15 @@ margin-right: 5px;
 #livros{
   display: flex;
   align-items: justify;
+  background-color: black;
   border-bottom: 1px solid black;
   border-top: 1px solid black;
 
 }
 #livros p{
   margin-top: 7%;
+  color: white;
+  padding: 1%;
   text-align: center;
 }
 
@@ -181,17 +182,22 @@ margin-right: 5px;
 }
 #series p{
   margin-top: 7%;
+  padding: 1%;
   text-align: center;
 }
 
 #animes{
   display: flex;
   align-items: justify;
+  background-color: black;
   border-bottom: 1px solid black;
+  border-top: 1px solid black;
 
 }
 #animes p{
   margin-top: 7%;
+  color: white;
+  padding: 1%;
   text-align: center;
 }
 
@@ -203,8 +209,81 @@ margin-right: 5px;
 }
 #musicas p{
   margin-top: 7%;
+  padding: 1%;
   text-align: center;
 }
 
 
+@media(max-width:1010px){
 
+  nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    font-size: 10pt;
+  }
+
+
+}
+
+@media(max-width:950px){
+
+.li1{
+  display: none;
+}
+
+#home img{
+
+  width: 100%;
+  height: 500px;
+}
+
+}
+
+@media(max-width:800px){
+
+  .li1{
+    display: none;
+  }
+
+#home img{
+
+  width: 100%;
+  height: 500px;
+}
+
+#fizmerda{
+  display: block;
+  border-bottom: #323233 1px solid;
+  border-top: #323233 1px solid;
+  
+}
+.perfil{
+  width: 100px;
+  height: 100px;
+  align-items: center;
+  border-radius: 70%;
+  margin-top: 20%;
+
+}
+.imagens{
+  width: 95%;
+}
+
+#livros{
+  display: block;
+}
+
+#series{
+  display: block;
+}
+
+#musicas{
+  display: block;
+}
+
+#animes{
+  display: block;
+}
+
+}
